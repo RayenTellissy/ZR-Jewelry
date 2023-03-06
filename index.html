@@ -14,19 +14,24 @@
         <button id="welcomebutton" onclick="leaveWelcome()">Enter</button>
     </div>
     <div id="main">
-        <ul>
             <img id="logo" src="Pictures/Other/logo.png">
-            <li><button class="toolbar" onclick="gold()">Gold</button></li>
-            <li><button class="toolbar">Silver</button><li>
-            <li><button class="toolbar">About us</button><li>
-            <li><button class="toolbar">FAQs</button><li>
-            <li><button class="toolbar">Contact</button></li>
-        </ul>
+            <div class="navbar">
+                <div class="dropdown">
+                    <button class="dropbtn">Gold</button>
+                    <div class="dropdown-content">
+                      <a href="#" onclick="goldbracelets()">Bracelets</a>
+                      <a href="#" onclick="goldrings()">Rings</a>
+                      <a href="#" onclick="goldnecklaces()">Necklaces</a>
+                      <a onclick="goldearrings()">Earrings</a>
+                    </div>
+                  </div> 
+                <a href="#">FAQ</a>
+                <a href="#">Contact Us</a>
+              </div>
+
     </div>
-    <div id="gold">
-        
-        
-    
+    <div id="goldbracelets">
+
     </div>
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
