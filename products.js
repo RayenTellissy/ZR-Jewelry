@@ -1,6 +1,7 @@
 /*                  GOLD                  */
 // bracelets of gold 
 var bracelets1={
+    name:"zaffir",
     src:"Pictures/Gold/bracelets/bracelets1.jpg",
     price:800
 }
