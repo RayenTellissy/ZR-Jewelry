@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // animating: fading in text
 $("#wdiv").fadeOut(1)
 $("#main").fadeOut(1)
@@ -12,3 +13,5 @@ function leaveWelcome(){  //fadeout on click
 function gold(){
     $("#main").fadeOut(1000)
 }
+=======
+>>>>>>> 821788318526b939efcd2279191152045d6bcf1e
