@@ -17,12 +17,13 @@ function leaveWelcome(){  //fadeout on click
 function gold(){
     $("#main").fadeOut(1000)
     $("#gold").fadeIn(1000)
+}
 function goldbracelets(){
     $("#main").fadeOut(500,function(){
         $("#goldbracelets").fadeIn(500)
     })
 }
-}
+
 
 function goldrings(){
     $("#main").fadeOut(500,function(){
