@@ -1,11 +1,17 @@
-#w{
+body{
+    background-color: black;
+}
+#wdiv{
     margin: auto;
     width: 50%;
     text-align: center;
+    padding: 200px;
 }
 #welcomebutton{
     border:none;
     background-color: inherit;
+    color: white;
+    font-family: "Montserrat light";
 }
 #welcomebutton:hover{
     border:none;
@@ -14,5 +20,7 @@
 }
 
 #welcome{
-    font-family: "Montserrat Black"
+    font-family: "Montserrat Black";
+    color: white;
+    font-size: 70px;
 }

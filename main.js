@@ -1,3 +1,4 @@
 // animating: fading in text
-$("#w").fadeIn()
-
+$(document).ready(function(){
+    $("#welcome").fadeIn(1000,linear)
+})
