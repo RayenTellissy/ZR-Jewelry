@@ -1,4 +1,4 @@
-// changes to make fadein work
+
 $("#wdiv").fadeOut(1)
 $("#main").fadeOut(1)
 $("#gold").fadeOut(1)
@@ -30,4 +30,3 @@ function goldearrings(){
         $("#goldrings").fadeIn(500)
     })
 }
-//
