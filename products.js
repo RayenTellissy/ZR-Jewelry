@@ -105,39 +105,39 @@ var rings2={
     price:120
  }
  // necklaces of Silver
- var necklace1={
+ var necklaces1={
     src:"Pictures/Silver/necklaces/1.jpg",
     price:80
  }
- var necklace2={
+ var necklaces2={
     src:"Pictures/Silver/necklaces/2.jpg",
     price:80
  }
- var necklace3={
+ var necklaces3={
     src:"Pictures/Silver/necklaces/3.jpg",
     price:80
  }
- var necklace4={
+ var necklaces4={
     src:"Pictures/Silver/necklaces/4.jpg",
     price:50
  }
- var necklace5={
+ var necklaces5={
     src:"Pictures/Silver/necklaces/5.jpg",
     price:110
  }
- var necklace6={
+ var necklaces6={
     src:"Pictures/Silver/necklaces/6.jpg",
     price:70
  }
- var necklace7={
+ var necklaces7={
     src:"Pictures/Silver/necklaces/7.jpg",
     price:70
  }
- var necklace8={
+ var necklaces8={
     src:"Pictures/Silver/necklaces/8.jpg",
     price:80
  }
- var necklace9={
+ var necklaces9={
     src:"Pictures/Silver/necklaces/9.jpg",
     price:40
  }
@@ -180,7 +180,12 @@ var rings2={
     src:"Pictures/Silver/tradi/2.jpg",
     price:70
   }
-
+  // we declare an array that contains all the objects 
+  var arr=[ bracelets1, bracelets2, bracelets3 ,bracelets4, bracelets5, bracelets6,earrings, necklace1, necklace2,rings1,rings2,rings3,rings4,rings5,brace1,brace2,brace3,brace4,brace5,brace6,brace7,brace8,brace9,necklaces1,necklaces2,necklaces3,necklaces4,necklaces5,necklaces6,necklaces7,necklaces8,necklaces9,ring1,ring2,ring3,traditional1,traditional2,traditional3,traditional4,tradi1,tradi2]
+// 
+  function giverandom(){
+    var random =Math.floor(Math.random()* (arr.length-1))
+  }
 
 
 
