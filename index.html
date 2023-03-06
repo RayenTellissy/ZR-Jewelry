@@ -14,24 +14,26 @@
         <button id="welcomebutton" onclick="leaveWelcome()">Enter</button>
     </div>
     <div id="main">
-        <ul>
             <img id="logo" src="Pictures/Other/logo.png">
-            <label for="golds">Choose a car:</label>
-                <select name="golds" id="cars">
-                    <option value="bracelets" onselect="test()">Bracelets</option>
-                    <option value="rings">Rings</option>
-                    <option value="necklace">Necklace</option>
-                    <option value="earrings">Earrings</option>
-                </select>
-            <li><button class="toolbar" onclick="silver()">Silver</button><li>
-            <li><button class="toolbar" onclick="aboutus()">About us</button><li>
-            <li><button class="toolbar" onclick="faq()">FAQs</button><li>
-            <li><button class="toolbar" onclick="contact()">Contact</button></li>
-        </ul>
-    </div>
-    <div id="gold">
+            <div class="navbar">
+                <div class="dropdown">
+                    <button class="dropbtn">Gold</button>
+                    <div class="dropdown-content">
+                      <a href="#" onclick="goldbracelets()">Bracelets</a>
+                      <a href="#" onclick="goldrings()">Rings</a>
+                      <a href="#" onclick="goldnecklaces()">Necklaces</a>
+                      <a onclick="goldearrings()">Earrings</a>
+                    </div>
+                  </div> 
+                <a href="#">FAQ</a>
+                <a href="#">Contact Us</a>
+              </div>
 
     </div>
+    <div id="goldbracelets">
+
+    </div>
+    
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="main.js"></script>
     
