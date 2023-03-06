@@ -1,7 +1,8 @@
 #w{
-    display: block;
+    margin: auto;
     width: 50%;
-    justify-content: center;
+    border: 5px solid;
+    text-align: center;
 }
 #welcomebutton{
     border:none;
@@ -10,5 +11,5 @@
 }
 
 #welcome{
-    font-family: "Montserrat Black" ;
+    font-family: "Montserrat Black"
 }
