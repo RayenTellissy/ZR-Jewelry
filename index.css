@@ -1,5 +1,8 @@
 body{
-    background-color: black;
+    background-image: url("Pictures/Other/background.png");
+}
+p{
+    color:white
 }
 #wdiv{
     margin: auto;
@@ -12,15 +15,48 @@ body{
     background-color: inherit;
     color: white;
     font-family: "Montserrat light";
+    font-size: 15px;
 }
 #welcomebutton:hover{
     border:none;
     background-color: inherit;
     text-decoration: underline;
+    cursor: pointer;
 }
 
 #welcome{
     font-family: "Montserrat Black";
     color: white;
     font-size: 70px;
+}
+
+
+#logo{
+    height: 70px;
+    width: 70px;
+}
+
+.toolbox{
+    color:white;
+    
+}
+
+li{
+    color: white;
+    display: inline;
+    font-family: "Montserrat light";
+    padding: 50px;
+    width: 50%;
+    margin: auto;
+}
+.toolbar{
+    border:none;
+    background-color: inherit;
+    color: white;
+    font-family: "Montserrat light";
+    font-size: 15px;
+}
+.toolbar:hover{
+    text-decoration: underline;
+    cursor: pointer;
 }
