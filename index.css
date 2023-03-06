@@ -60,3 +60,14 @@ li{
     text-decoration: underline;
     cursor: pointer;
 }
+
+select{
+    border: none;
+    outline: none;
+    background-color: inherit;
+    color: white;
+    padding: 10px;
+}
+select:hover{
+    
+}

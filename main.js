@@ -1,7 +1,10 @@
-<<<<<<< HEAD
-// animating: fading in text
+// change to make fadein work
 $("#wdiv").fadeOut(1)
 $("#main").fadeOut(1)
+$("#gold").fadeOut(1)
+
+// animating: fading in text
+
 $("#wdiv").fadeIn(2500)
 
 function leaveWelcome(){  //fadeout on click
@@ -12,6 +15,8 @@ function leaveWelcome(){  //fadeout on click
 
 function gold(){
     $("#main").fadeOut(1000)
+    $("#gold").fadeIn(1000)
 }
-=======
->>>>>>> 821788318526b939efcd2279191152045d6bcf1e
+function test(){
+    alert("worked!")
+}

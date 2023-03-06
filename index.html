@@ -16,15 +16,21 @@
     <div id="main">
         <ul>
             <img id="logo" src="Pictures/Other/logo.png">
-            <li><button class="toolbar" onclick="gold()">Gold</button></li>
-            <li><button class="toolbar">Silver</button><li>
-            <li><button class="toolbar">About us</button><li>
-            <li><button class="toolbar">FAQs</button><li>
-            <li><button class="toolbar">Contact</button></li>
+            <label for="golds">Choose a car:</label>
+                <select name="golds" id="cars">
+                    <option value="bracelets" onselect="test()">Bracelets</option>
+                    <option value="rings">Rings</option>
+                    <option value="necklace">Necklace</option>
+                    <option value="earrings">Earrings</option>
+                </select>
+            <li><button class="toolbar" onclick="silver()">Silver</button><li>
+            <li><button class="toolbar" onclick="aboutus()">About us</button><li>
+            <li><button class="toolbar" onclick="faq()">FAQs</button><li>
+            <li><button class="toolbar" onclick="contact()">Contact</button></li>
         </ul>
     </div>
     <div id="gold">
-        
+
     </div>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="main.js"></script>
