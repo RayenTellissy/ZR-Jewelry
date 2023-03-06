@@ -7,6 +7,10 @@
 #welcomebutton{
     border:none;
     background-color: inherit;
+}
+#welcomebutton:hover{
+    border:none;
+    background-color: inherit;
     text-decoration: underline;
 }
 
