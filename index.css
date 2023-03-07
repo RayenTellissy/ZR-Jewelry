@@ -252,11 +252,24 @@ h2{
   font-family: "Montserrat";
   border-radius: 4px
 }
+#signupbar{
+  font-family: "Montserrat";
+    margin: 10px;
+    border:none; 
+    font-size: 16px;
+    background-color: inherit;
+    float: right;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    cursor: pointer;
+    color: #944f00;
+    font-size: 20px;
+}
 #signupbtn{
   font-family: "Montserrat";
     margin: 10px;
-    border:none;
-    float:right;  
+    border:none; 
     font-size: 16px;
     background-color: inherit;
     text-align: center;
