@@ -1,5 +1,16 @@
 /*                  GOLD                  */
 // bracelets of gold 
+var gold = [{type:"bracelet", name:"zaffir",picture:"",price:800},{}]
+var nameclicked = ""
+function assignName(name){
+return nameclicked =name
+}
+function buy(array,item){
+   var x = []
+   //loop over the array to find the item 
+   //update the item in x 
+   //make another function inside, that will take x as a parameter and make the conditional buy
+}
 var bracelets1={
     name:"zaffir",
     src:"Pictures/Gold/bracelets/bracelets1.jpg",
