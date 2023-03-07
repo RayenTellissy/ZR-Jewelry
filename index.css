@@ -174,6 +174,50 @@ h2{
     border: 1px groove
   }
 
+
+  .faqs{
+    font-family: "Montserrat black";
+    text-decoration: underline;
+    text-align: center;
+    color:#f4a460
+  }
+  .question{
+    font-family: "Montserrat Black";
+    color:#ffdead
+    
+  }
+  .response{
+    color:chocolate;
+    font-size: 18px;
+    font-family: "Montserrat"
+    
+    
+  }
+  li{
+  padding:6px}
+  .selling{
+    font-family: "Montserrat black";
+      text-decoration: underline;
+      text-align: center;
+      color:#f4a460
+  }
+  #call{
+     font-family: "Montserrat italic";
+      color:burlywood
+  }
+
+  .contactUs{
+    font-family: "Montserrat black";
+      text-decoration: underline;
+      text-align: center;
+      color:#f4a460
+  }
+  #call{
+     font-family: "Montserrat italic";
+      color:burlywood
+  }
+  
+
 #search{
   float: right;
   padding: 5px;
@@ -266,3 +310,4 @@ h2{
     color: #944f00;
     font-size: 20px;
 }
+
