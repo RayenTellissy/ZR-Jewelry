@@ -3,7 +3,11 @@ $("#wdiv").fadeOut(1)
 $("#main").fadeOut(1)
 $("#goldbracelets").fadeOut(1)
 $("#goldrings").fadeOut(1)
-$("goldearrings").fadeOut(1)
+$("#goldearrings").fadeOut(1)
+$("#goldnecklaces").fadeOut(1)
+$("#silverbracelets").fadeOut(1)
+$("#silverrings").fadeOut(1)
+$("#silvernecklaces").fadeOut(1)
 
 // animating: fading in text
 

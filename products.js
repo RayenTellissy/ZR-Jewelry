@@ -141,32 +141,6 @@ var rings2={
     src:"Pictures/Silver/ringsSilver/3.jpg",
     price:45
   }
-  //traditional of Silver 
-  var traditional1={
-    src:"Pictures/Silver/traditional/1.jpg",
-    price:700
-  }
-  var traditional2={
-    src:"Pictures/Silver/traditional/2.jpg",
-    price:200
-  }
-  var traditional3={
-    src:"Pictures/Silver/traditional/3.jpg",
-    price:300
-  }
-  var traditional4={
-    src:"Pictures/Silver/traditional/4.jpg",
-    price:700
-  }
-  // braceletstraditional of Silver
-  var tradi1={
-    src:"Pictures/Silver/tradi/1.jpg",
-    price:70
-  }
-  var tradi2={
-    src:"Pictures/Silver/tradi/2.jpg",
-    price:70
-  }
   // we declare an array that contains all the objects 
   var arr=[ bracelets1, bracelets2, bracelets3 ,bracelets4, bracelets5,earrings, necklace1, necklace2,rings2,rings3,rings4,rings5,brace2,brace3,brace4,brace6,brace7,brace8,brace9,necklaces1,necklaces2,necklaces3,necklaces4,necklaces5,necklaces6,necklaces7,necklaces8,necklaces9,ring1,ring2,ring3]
 // 
