@@ -154,7 +154,6 @@ function signUp(){
     $("#signup-page").append(k)
 }
 function signupCheck(){
-
         account.push({user:$("#suser").val(),
             pass:$("#spass").val(),
             balance:1000,
@@ -162,6 +161,9 @@ function signupCheck(){
         })
         localStorage.clear()
         localStorage.setItem("allAccounts",JSON.stringify(account))
+        $("#signup-page").fadeOut(400,function(){
+            $("#main").fadeIn(400)
+        })
 
 }
 
@@ -185,11 +187,15 @@ function loginCheck(){
             balance=accounts[i].balance
             cart=accounts[i].cart
             loggedIn=true
+            $("#loginpage").fadeOut(400,function(){
+                $("#main").fadeIn(400)
+            })
         }
     }
     if(loggedIn===false){
         alert("account incorrect")
     }
+    
 }
 
 
@@ -223,7 +229,7 @@ function cartbuy(){
     }
     $("#cartpage").append(ch)
     var k="<button id='finish' onclick='checkout()'>Checkout</button>"
-    $("#cartpage").append(k)
+    $("#cartpage center").append(k)
 }
 
 /*                 checkout               */
