@@ -175,7 +175,7 @@ var rings2={
     src:"Pictures/Silver/ringsSilver/3.jpg",
     price:45
   }
-  
+
   // we declare an array that contains all the objects 
   var arr=[ bracelets1, bracelets2, bracelets3 ,bracelets4, bracelets5,earrings, necklace1, necklace2,rings2,rings3,rings4,rings5,brace2,brace3,brace4,brace6,brace7,brace8,brace9,necklaces1,necklaces2,necklaces3,necklaces4,necklaces5,necklaces6,necklaces7,necklaces8,necklaces9,ring1,ring2,ring3]
 // 
