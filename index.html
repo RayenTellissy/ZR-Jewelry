@@ -14,7 +14,11 @@
         <button id="welcomebutton" onclick="leaveWelcome()">Enter</button>
     </div>
     <div id="main">
-            <img id="logo" src="Pictures/Other/logo.png">
+            <div id="top">
+              <img id="logo" src="Pictures/Other/logo.png">
+              <button id="login" onclick="login()">Login</button>
+              <button id="signupbtn" onclick="signUp()">Sign Up</button>
+            </div>
             <div class="navbar">
                 <div class="dropdown">
                     <button class="dropbtn">Gold</button>
@@ -35,23 +39,42 @@
                   </div>                  
                 <a href="#">FAQ</a>
                 <a href="#">Contact Us</a>
+                <a href="#" id="cart" onclick="cartbuy()">Cart</a>
+                <input id="search" type="text" placeholder="Search Items" oninput="searchbar()">
               </div>
               <div id="latest">
                 <center>
-                  <h2>LATEST RELEASES</h2>
+                    <h2>LATEST RELEASES</h2>
                 </center>
               </div>
+              <div id="found"></div>
     </div>
-    <div id="goldbracelets"></div>
-    <div id="goldrings"></div>
-    <div id="goldnecklaces"></div>
-    <div id="goldearrings"></div>
+    <div id="loginpage"><button id="return" onclick="returnPage('loginpage')">Return</button></div>
+    <div id="signup-page"><button id="return" onclick="returnPage('signup-page')">Return</button></div>
+      <div id="goldbracelets"><button id="return" onclick="returnPage('goldbracelets')">Return</button></div>
+      <div id="goldrings"><button id="return" onclick="returnPage('goldrings')">Return</button></div>
+      <div id="goldnecklaces"><button id="return" onclick="returnPage('goldnecklaces')">Return</button></div>
+      <div id="goldearrings"><button id="return" onclick="returnPage('goldearrings')">Return</button></div>
 
-    <div id="silverbracelets"></div>
-    <div id="silverrings"></div>
-    <div id="silvernecklaces"></div>
-
+      <div id="silverbracelets"><button id="return" onclick="returnPage('silverbracelets')">Return</button></div>
+      <div id="silverrings"><button id="return" onclick="returnPage('silverrings')">Return</button></div>
+      <div id="silvernecklaces"><button id="return" onclick="returnPage('silvernecklaces')">Return</button></div>
+    
+  
+    <div id="cartpage">
+      <button id="return" onclick="returnPage('cartpage')">Return</button>
+        <center>
+          <h1>Cart</h1>
+        </center>
+    </div>
     <div id="faq"></div>
+
+    <div id="endpage">
+      <center>
+        <h1 class="thanks">Thanks for shopping with us!</h1>
+        <h3 class="thanks">you will shortly be returned to main page</h3>
+      </center>
+    </div>
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="products.js"></script>

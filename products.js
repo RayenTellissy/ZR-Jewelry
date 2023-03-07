@@ -1,21 +1,12 @@
 /*                  GOLD                  */
 // bracelets of gold 
-var gold = [{type:"bracelet", name:"zaffir",picture:"",price:800},{}]
-var nameclicked = ""
-function assignName(name){
-return nameclicked =name
-}
-function buy(array,item){
-   var x = []
-   //loop over the array to find the item 
-   //update the item in x 
-   //make another function inside, that will take x as a parameter and make the conditional buy
-}
+
 var bracelets1={
     name:"zaffir",
     src:"Pictures/Gold/bracelets/bracelets1.jpg",
     price:800
 }
+
  var bracelets2={
    name:"zaffir2",
     src:"Pictures/Gold/bracelets/bracelets2.jpg",
@@ -188,9 +179,33 @@ var rings2={
   }
 
   // we declare an array that contains all the objects 
-  var arr=[ bracelets1, bracelets2, bracelets3 ,bracelets4, bracelets5,earrings, necklace1, necklace2,rings2,rings3,rings4,rings5,brace2,brace3,brace4,brace6,brace7,brace8,brace9,necklaces1,necklaces2,necklaces3,necklaces4,necklaces5,necklaces6,necklaces7,necklaces8,necklaces9,ring1,ring2,ring3]
-// 
+var arr=[ bracelets1, bracelets2, bracelets3 ,bracelets4, bracelets5,earrings, necklace1, necklace2,rings2,rings3,rings4,rings5,brace2,brace3,brace4,brace6,brace7,brace8,brace9,necklaces1,necklaces2,necklaces3,necklaces4,necklaces5,necklaces6,necklaces7,necklaces8,necklaces9,ring1,ring2,ring3]
+var balance=0
+var cart=[]
+var loggedIn=false
 
+function buy(item){         // buy function for proccessing orders and adding items to the cart if the user has enough funds
+   if(loggedIn===false){
+      alert("please log in")
+   }
+   else{
+      for(var i=0 ; i<arr.length ; i++){
+         if(arr[i].name===item){
+            if(balance-arr[i].price>=0){
+               balance-=arr[i].price
+               cart.push(arr[i])
+               alert("Item added to cart.")
+               break
+            }
+            else{
+               alert("not enough funds.")
+            }
+         }
+      }
+   }
+}
+
+/* randomizing items to show in latest releases in the main page*/
 var random1=Math.floor(Math.random()* (arr.length-1))
 var random2=Math.floor(Math.random()* (arr.length-1))
 var random3=Math.floor(Math.random()* (arr.length-1))
