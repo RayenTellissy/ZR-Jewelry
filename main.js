@@ -76,6 +76,12 @@ function Silvernecklaces(){
     $("#main").fadeOut(500,function(){
         $("#silvernecklaces").fadeIn(500)
     })
+    var k=$('<div class="product"><img src="'+necklaces1.src+'" width="230" height="220"><p class="buyp">'+necklaces1.name+'</p><p class="buyp">Price:'+necklaces1.price+'</p><button class="buy" onclick="silvernecklaces1()">Buy</button></div>')
+    var k1=$('<div class="product"><img src="'+necklaces2.src+'" width="230" height="220"><p class="buyp">'+necklaces2.name+'</p><p class="buyp">Price:'+necklaces2.price+'</p><button class="buy" onclick="silvernecklaces2()">Buy</button></div>')
+    var k2=$('<div class="product"><img src="'+necklaces3.src+'" width="230" height="220"><p class="buyp">'+necklaces3.name+'</p><p class="buyp">Price:'+necklaces3.price+'</p><button class="buy" onclick="silvernecklaces3()">Buy</button></div>')
+    $("#silvernecklaces").append(k)
+    $("#silvernecklaces").append(k1)
+    $("#silvernecklaces").append(k2)
 }
 
 function Silverring(){
@@ -83,7 +89,11 @@ function Silverring(){
         $("#silverrings").fadeIn(500)
     })
     var k=$('<div class="product"><img src="'+ring1.src+'" width="230" height="220"><p class="buyp">'+ring1.name+'</p><p class="buyp">Price:'+ring1.price+'</p><button class="buy" onclick="silverring1()">Buy</button></div>')
-    $("silverrings").append(k)
+    var k1=$('<div class="product"><img src="'+ring2.src+'" width="230" height="220"><p class="buyp">'+ring2.name+'</p><p class="buyp">Price:'+ring2.price+'</p><button class="buy" onclick="silverring2()">Buy</button></div>')
+    var k2=$('<div class="product"><img src="'+ring3.src+'" width="230" height="220"><p class="buyp">'+ring3.name+'</p><p class="buyp">Price:'+ring3.price+'</p><button class="buy" onclick="silverring3()">Buy</button></div>')
+    $("#silverrings").append(k)
+    $("#silverrings").append(k1)
+    $("#silverrings").append(k2)
 }
 
 //latest releases
