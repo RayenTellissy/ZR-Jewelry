@@ -2,12 +2,7 @@
 var balance=800
 
 /* functions for calculating and buying */
-function goldbracelets1(){
-    if(balance-bracelets1.price>=0){
-        balance-=bracelets1.price
-        alert("Bought!")
-    }
-}
+
 
 function goldbracelets2(){
     if(balance-bracelets2.price>=0){
